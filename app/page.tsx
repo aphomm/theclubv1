@@ -294,24 +294,24 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-3 gap-12">
             <div className="border-l-2 border-amber-600 pl-8">
               <p className="text-xl italic text-stone-300 font-light mb-6 leading-relaxed">
-                "This isn't just a club, it's a movement. The connections I've made here have transformed my career."
+                "QUOTE COPY HERE"
               </p>
-              <div className="text-stone-100 font-light">Marcus Johnson</div>
-              <div className="text-amber-600 text-sm font-light">Producer, 3x Grammy Winner</div>
+              <div className="text-stone-100 font-light">NAME</div>
+              <div className="text-amber-600 text-sm font-light">TITLE</div>
             </div>
             <div className="border-l-2 border-amber-600 pl-8">
               <p className="text-xl italic text-stone-300 font-light mb-6 leading-relaxed">
-                "The Pool helped me fund my album without losing creative control. Game changer."
+                "QUOTE COPY HERE"
               </p>
-              <div className="text-stone-100 font-light">Aaliyah Davis</div>
-              <div className="text-amber-600 text-sm font-light">Artist, R&B Singer-Songwriter</div>
+              <div className="text-stone-100 font-light">NAME</div>
+              <div className="text-amber-600 text-sm font-light">TITLE</div>
             </div>
             <div className="border-l-2 border-amber-600 pl-8">
               <p className="text-xl italic text-stone-300 font-light mb-6 leading-relaxed">
-                "Elite access to facilities and people you can't find anywhere else in LA."
+                "QUOTE COPY HERE"
               </p>
-              <div className="text-stone-100 font-light">David Chen</div>
-              <div className="text-amber-600 text-sm font-light">Label Executive, Atlantic Records</div>
+              <div className="text-stone-100 font-light">NAME</div>
+              <div className="text-amber-600 text-sm font-light">TITLE</div>
             </div>
           </div>
         </div>
@@ -323,12 +323,12 @@ export default function LandingPage() {
           <div>
             <h2 className="text-4xl md:text-5xl font-light mb-6">Located in the heart of Inglewood</h2>
             <p className="text-xl text-stone-400 font-light mb-8 leading-relaxed">
-              WePlay Studios sits at the intersection of culture and commerce, minutes from SoFi Stadium and
+              Our exclusive facility sits at the intersection of culture and commerce, minutes from SoFi Stadium and
               the Forum. This is where the West Coast music scene comes alive.
             </p>
             <p className="text-stone-400 font-light mb-8 leading-relaxed">
-              Our 15,000 sq ft facility features three recording studios, a conference center,
-              an executive lounge, and collaborative workspaces designed for creativity.
+              Our 60,000 square foot facility features three recording studios, a conference center,
+              an executive lounge, a full-production podcast studio, AR/VR capabilities, 24/7 livestream technology, and collaborative workspaces designed for creativity.
             </p>
             <button className="border border-stone-700 px-12 py-4 text-sm font-light tracking-wide hover:border-amber-600 hover:text-amber-600 transition-colors">
               Tour the Space
@@ -348,10 +348,10 @@ export default function LandingPage() {
           </div>
           <div className="grid md:grid-cols-4 gap-12">
             {[
-              { name: 'James Wilson', role: 'Founder & CEO', bio: '20+ years in music production' },
-              { name: 'Sarah Martinez', role: 'Head of Operations', bio: 'Former Warner Music executive' },
-              { name: 'Michael Brown', role: 'Creative Director', bio: 'Multi-platinum producer' },
-              { name: 'Lisa Anderson', role: 'Community Lead', bio: 'Artist development specialist' }
+              { name: 'Larrance "Rance" Dopson', role: 'Founder & CEO', bio: '4x Grammy-Award Winning, Multi-Platinum Songwriter, Producer and Musical Director' },
+              { name: 'Max Bilonogov', role: 'CVO', bio: 'WePlay Studios' },
+              { name: 'XXXX', role: 'XXXX', bio: 'XXXX' },
+              { name: 'XXXX', role: 'XXXX', bio: 'XXXX' }
             ].map((member, i) => (
               <div key={i} className="text-center">
                 <div className="bg-stone-900 aspect-square mb-6 flex items-center justify-center border border-stone-800">
@@ -397,12 +397,12 @@ export default function LandingPage() {
       <footer className="border-t border-stone-900 py-12 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-xl font-light tracking-extra-wide">
-            <span className="text-stone-100">THE</span>{' '}
-            <span className="text-amber-600">CLUB</span>
+            <span className="text-stone-100">IC</span>
+            <span className="text-amber-600">WT</span>
           </div>
           <div className="text-stone-500 text-sm font-light text-center">
             <div>Inglewood, California</div>
-            <div>© 2025 The Club. All rights reserved.</div>
+            <div>© 2025 ICWT. All rights reserved.</div>
           </div>
         </div>
       </footer>
