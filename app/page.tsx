@@ -48,8 +48,8 @@ export default function LandingPage() {
       <header className="fixed top-0 left-0 right-0 z-50 border-b border-stone-800 bg-stone-950/80 backdrop-blur-sm">
         <nav className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
           <div className="text-2xl font-light tracking-extra-wide">
-            <span className="text-stone-100">THE</span>{' '}
-            <span className="text-amber-600">CLUB</span>
+            <span className="text-stone-100">IC</span>
+            <span className="text-amber-600">WT</span>
           </div>
           <div className="hidden md:flex items-center gap-12 text-sm font-light tracking-wide">
             <a href="#about" className="hover:text-amber-600 transition-colors">About</a>
@@ -72,12 +72,11 @@ export default function LandingPage() {
             INGLEWOOD, CALIFORNIA
           </div>
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light mb-8 leading-tight">
-            Where the culture{' '}
-            <span className="italic font-serif text-amber-600">builds together</span>
+            In CULTURE{' '}
+            <span className="italic font-serif text-amber-600">We TRUST</span>
           </h1>
           <p className="text-xl text-stone-400 font-light max-w-3xl mx-auto mb-16 leading-relaxed">
-            An exclusive membership platform for Grammy-winning artists, producers, and industry executives.
-            Access elite networking, world-class studio facilities, and collaborative investment opportunities.
+          A private cultural membership built at the intersection of music, tech, film, fashion, sports, wellness, and aerospace. This isn't just another club – it's the front door into the 1500 or Nothin' × WePlay Studios cultural operating system, where the world's most influential creators and operators gather to build, connect, and own.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <a href="/auth/signup">
@@ -139,15 +138,15 @@ export default function LandingPage() {
           </p>
           <div className="grid md:grid-cols-3 gap-16">
             <div>
-              <div className="text-6xl font-light text-amber-600 mb-4">500+</div>
+              <div className="text-6xl font-light text-amber-600 mb-4">XXX+</div>
               <div className="text-stone-400 font-light tracking-wide">Members</div>
             </div>
             <div>
-              <div className="text-6xl font-light text-amber-600 mb-4">50+</div>
+              <div className="text-6xl font-light text-amber-600 mb-4">XXX+</div>
               <div className="text-stone-400 font-light tracking-wide">Events Annually</div>
             </div>
             <div>
-              <div className="text-6xl font-light text-amber-600 mb-4">$10M+</div>
+              <div className="text-6xl font-light text-amber-600 mb-4">$XXXM+</div>
               <div className="text-stone-400 font-light tracking-wide">Deals Closed</div>
             </div>
           </div>
